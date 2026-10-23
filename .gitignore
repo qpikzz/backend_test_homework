@@ -1,0 +1,20 @@
+*.log
+/debug.log
+/logs/
+!main.log
+# some text
+
+# Игнорировать все .txt-файлы
+*.txt
+
+# Игнорировать папку build
+build/
+
+# Игнорировать файл в корне
+/config.json
+
+# Игнорировать все .tmp-файлы в любой папке
+**/*.tmp
+
+# Не игнорировать important.txt (исключение)
+!important.txt
